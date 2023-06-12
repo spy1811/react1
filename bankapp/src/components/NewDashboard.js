@@ -7,7 +7,7 @@ function NewDashboard() {
     const uname = localStorage.getItem('uname');
     function fetchBal() {
         // axios.get('http://localhost:8080/api/v1/auth/topRecord')
-        // axios.get('http://54.183.245.156:8080/api/v1/auth/topRecord')
+        // axios.get('http://54.184.39.209:30115/api/v1/auth/topRecord')
         axios.get('https://vishnusudarshana.vertextechnosys.com/api/info')
             .then((res) => {
                 console.log(res.data)
